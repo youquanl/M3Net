@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: detectron2
+Version: 0.6
+Summary: Detectron2 is FAIR's next-generation research platform for object detection and segmentation.
+Home-page: https://github.com/facebookresearch/detectron2
+Author: FAIR
+Requires-Python: >=3.7
+Provides-Extra: all
+Provides-Extra: dev
+License-File: LICENSE

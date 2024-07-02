@@ -43,25 +43,47 @@
 
 ## News
 
-- \[2024.05\] - Our paper is available on arXiv, click [here](https://arxiv.org/pdf/2405.01538) to check it out. The code will be available later.
+- \[2024.05\] - Our paper is available on arXiv, click [here](https://arxiv.org/pdf/2405.01538) to check it out.
 - 🔥\[2024.02\] - [M3Net](https://arxiv.org/pdf/2405.01538) was accepted to [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024)!
 
 
 
-## Installation
+<!-- ## Installation
 
 Kindly refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 
 
 ## Data Preparation
 
-Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the datasets.
+Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the datasets. -->
 
 
 ## Getting Started
 
 Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more about how to use this codebase.
 
+## Qualitative Evaluation
+**SemanticKITTI**
+<p>
+    <img src="docs/figs/vis_semantickitti.png" alt="pipeline" style="width: 800px; float: left; margin-right: 10px;" /> 
+
+</p>
+<p style="clear: both;">
+</p>
+
+**nuScenes**
+<p>
+    <img src="docs/figs/vis_nuscenes.png" alt="pipeline" style="width: 800px; float: left; margin-right: 10px;" /> 
+  </p>
+<p style="clear: both;">
+</p>
+
+**Waymo Open**
+<p>
+    <img src="docs/figs/vis_waymo.png" alt="pipeline" style="width: 800px; float: left; margin-right: 10px;" /> 
+</p>
+<p style="clear: both;">
+</p>
 
 ## Citation
 If you find this work helpful, please kindly consider citing our paper:
@@ -75,11 +97,7 @@ If you find this work helpful, please kindly consider citing our paper:
 }
 ```
 
-## License
-
-To be updated.
-
 
 ## Acknowledgements
 
-To be updated.
+The overall structure of this repo is derived from [Pointcept](https://github.com/Pointcept/Pointcept), [SAM](https://github.com/facebookresearch/segment-anything), [OpenSeed](https://github.com/IDEA-Research/OpenSeeD) and [OpenPCSeg](https://github.com/PJLab-ADG/OpenPCSeg/tree/master).  Thank the authors for their great work!

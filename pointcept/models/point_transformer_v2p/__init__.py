@@ -1,0 +1,1 @@
+from .point_transformer_v6m5_random_shift import PointTransformerV2P

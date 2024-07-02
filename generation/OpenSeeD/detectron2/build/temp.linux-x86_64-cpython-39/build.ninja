@@ -1,0 +1,24 @@
+ninja_required_version = 1.3
+cxx = /mnt/lustre/share/gcc/gcc-5.4/bin/g++
+
+cflags = -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -Wall -fPIC -O2 -isystem /mnt/petrelfs/konglingdong/anaconda3/envs/m3net/include -fPIC -O2 -isystem /mnt/petrelfs/konglingdong/anaconda3/envs/m3net/include -fPIC -I/mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc -I/mnt/petrelfs/konglingdong/anaconda3/envs/m3net/lib/python3.9/site-packages/torch/include -I/mnt/petrelfs/konglingdong/anaconda3/envs/m3net/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -I/mnt/petrelfs/konglingdong/anaconda3/envs/m3net/lib/python3.9/site-packages/torch/include/TH -I/mnt/petrelfs/konglingdong/anaconda3/envs/m3net/lib/python3.9/site-packages/torch/include/THC -I/mnt/petrelfs/konglingdong/anaconda3/envs/m3net/include/python3.9 -c
+post_cflags = -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_C -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+
+
+build /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/build/temp.linux-x86_64-cpython-39/mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.o: compile /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.cpp
+build /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/build/temp.linux-x86_64-cpython-39/mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.o: compile /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.cpp
+build /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/build/temp.linux-x86_64-cpython-39/mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/cocoeval/cocoeval.o: compile /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/cocoeval/cocoeval.cpp
+build /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/build/temp.linux-x86_64-cpython-39/mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.o: compile /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.cpp
+build /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/build/temp.linux-x86_64-cpython-39/mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/vision.o: compile /mnt/petrelfs/konglingdong/youquan/OpenSeeD/detectron2/detectron2/layers/csrc/vision.cpp
+
+
+
+
+

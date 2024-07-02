@@ -1,0 +1,20 @@
+# ninja log v5
+9	19838	1693558856000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/ball_query/ball_query_cuda.o	97c33c1e418929f1
+8	21856	1693558857000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda.o	3db2a8e5bb7cd4c6
+9	21879	1693558857000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/attention/attention_cuda.o	cc42e9d9ec00bb0d
+10	21904	1693558858000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda.o	88210ef5443150d3
+10	21929	1693558858000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda.o	d9c6fb3f3c3f703c
+11	21955	1693558856000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/knn_query/knn_query_cuda.o	6a2935258516e4d7
+12	21993	1693558857000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/random_ball_query/random_ball_query_cuda.o	a66295335cb18f4d
+12	22018	1693558857000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda.o	70f983a87581c6ed
+13	22043	1693558858000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda.o	332bd3174720d45e
+11	38331	1693558875000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/pointops_api.o	af66c5aa4d298aa3
+12	49169	1693558886000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/random_ball_query/random_ball_query_cuda_kernel.o	f3846f48f09c4e8f
+8	49536	1693558886000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda_kernel.o	ac35734b715a7a89
+11	49590	1693558886000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda_kernel.o	4cbbb47ef5aec0a7
+12	49665	1693558886000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda_kernel.o	e3ea3aebcfcca3b
+9	49766	1693558886000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/ball_query/ball_query_cuda_kernel.o	d4c440958abd2275
+10	50049	1693558887000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda_kernel.o	b5566adc8079f52b
+9	50491	1693558887000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/attention/attention_cuda_kernel.o	e57adcaaf2b9f70d
+13	50493	1693558887000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda_kernel.o	8e2778b71eecbfc5
+11	50627	1693558887000000000	/mnt/petrelfs/konglingdong/youquan/Pointcept-v140-PPT/libs/pointops/build/temp.linux-x86_64-cpython-38/src/knn_query/knn_query_cuda_kernel.o	81c483398198e091
